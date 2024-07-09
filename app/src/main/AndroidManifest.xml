@@ -16,10 +16,11 @@
             android:name=".after_schooling"
             android:exported="false" />
         <activity
-            android:name=".splash_screen"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".splash_screen"
+            android:theme="@style/Theme.Design.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
