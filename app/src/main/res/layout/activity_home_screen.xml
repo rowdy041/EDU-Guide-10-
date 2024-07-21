@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_screen"
@@ -10,7 +10,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/kintokan"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginLeft="110dp"
@@ -21,7 +21,7 @@
         android:id="@+id/after_schooling"
         android:layout_width="170dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="-240dp"
+        android:layout_marginLeft="9dp"
         android:backgroundTint="@color/white"
         android:layout_marginTop="350dp"
         android:scaleType="centerCrop"
@@ -31,7 +31,7 @@
         android:id="@+id/courses"
         android:layout_width="170dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="9dp"
+        android:layout_marginLeft="200dp"
         android:backgroundTint="@color/white"
         android:layout_marginTop="350dp"
         android:scaleType="centerCrop"
@@ -41,7 +41,7 @@
         android:id="@+id/others_home_screen"
         android:layout_width="170dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="-350dp"
+        android:layout_marginLeft="200dp"
         android:backgroundTint="@color/white"
         android:layout_marginTop="450dp"
         android:scaleType="centerCrop"
@@ -59,6 +59,26 @@
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/futured_content" />
 
+    <ImageButton
+        android:id="@+id/user_profile"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:backgroundTint="#F3F2F2"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/user_profile" />
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/futured_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-150dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/home" />
 
 
-</LinearLayout>
+</RelativeLayout>
