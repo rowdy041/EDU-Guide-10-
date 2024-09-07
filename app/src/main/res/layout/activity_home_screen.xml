@@ -29,10 +29,5 @@
         android:backgroundTint="#FFFFFF"
         android:text="Recommended courses"
         android:textColor="@color/black"/>
-    <Button
-        android:id="@+id/"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
 
-        />
 </RelativeLayout>
