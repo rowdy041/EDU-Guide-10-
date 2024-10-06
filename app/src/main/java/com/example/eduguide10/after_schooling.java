@@ -1,6 +1,9 @@
 package com.example.eduguide10;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.content.Intent;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
