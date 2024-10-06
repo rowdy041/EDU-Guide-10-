@@ -25,7 +25,7 @@ public class home_screen extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+    //checking
         // Find the button by its ID
         Button after_schooling = findViewById(R.id.after_schooling);
 
