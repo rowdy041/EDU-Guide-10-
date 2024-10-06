@@ -28,7 +28,7 @@ public class home_screen extends AppCompatActivity {
 
         // Find the button by its ID
         Button after_schooling = findViewById(R.id.after_schooling);
-
+//checking
         // Set OnClickListener for the button
         after_schooling.setOnClickListener(new View.OnClickListener() {
             @Override
