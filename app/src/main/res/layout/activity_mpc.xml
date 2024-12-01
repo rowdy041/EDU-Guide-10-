@@ -2,122 +2,228 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/inter_mpc"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mpc">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
     <TextView
         android:id="@+id/mpc_heading"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:text="About M.P.C"
+        android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp"
-        android:text="M.P.C Mathematics Phycics and Chemistary"/>
-
-    <TextView
-        android:id="@+id/mpc_details_1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="90dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="n India, the MPC (Mathematics, Physics, Chemistry) stream is one of the most popular choices for students in the intermediate (also known as 10+2 or Junior College) level of education, typically covering grades 11 and 12. This stream is ideal for students interested in pursuing a career in engineering, physical sciences, or other related fields. Here’s an overview:
-
-"/>
-
-    <TextView
-        android:id="@+id/mpc_details_2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="1. Structure and Subjects:
-Mathematics: This subject covers topics like algebra, calculus, trigonometry, and geometry. It is crucial for students aiming for careers in engineering, data science, or mathematics itself.
-Physics: Physics involves the study of mechanics, thermodynamics, electromagnetism, optics, and modern physics. It forms the foundation for engineering disciplines such as mechanical, electrical, and electronics.
-Chemistry: Chemistry includes physical, organic, and inorganic chemistry. This subject is essential for fields like chemical engineering, materials science, and environmental science.
-Optional Subjects: Some students also take additional subjects like computer science or a second language.
-"
-/>
-
-    <TextView
-        android:id="@+id/mpc_curriculum"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="800dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="2. Curriculum:
-The curriculum is designed to prepare students for competitive exams like JEE (Joint Entrance Examination) for engineering, BITSAT, and other state-level engineering entrance exams.
-The syllabus typically follows the guidelines set by the state education boards or the Central Board of Secondary Education (CBSE), depending on the region."
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
         />
 
     <TextView
-        android:id="@+id/mpc_importance"
+        android:id="@+id/about_mpc"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="890dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="3. Importance:
-The MPC stream is considered rigorous and demanding, but it opens up a wide range of career options in engineering, architecture, and applied sciences.
-A strong foundation in these subjects is essential for success in various professional courses at the undergraduate level."/>
+        android:text="MPC stands for Mathematics, Physics, and Chemistry, and is a group of subjects offered in the 10+2 Intermediate program in India. It is also known as the PCM Group
+MPC is available in several states, including Andhra Pradesh, Telangana, Kerala, Karnataka, and Tamil Nadu. In some states, the equivalent of MPC is MEC (Mathematics, Economics, and Chemistry) or MECS (Mathematics, Economics, Chemistry, and Statistics).
+"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Compitetive exams written after doing mpc"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="After completing intermediate education in the MPC (Maths, Physics, Chemistry) stream in India, there are several competitive exams you can take based on your interest in engineering, defense, architecture, and other fields. Here’s a list of some popular options:"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="10dp"
+
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="1. Engineering Entrance Exams"
+    android:textStyle="bold"
+    android:layout_marginLeft="20dp"
+    android:textSize="20dp"
+    android:layout_marginTop="370dp"
+    android:layout_marginRight="10dp"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	JEE Main: The Joint Entrance Exam (Main) is for admission to NITs, IIITs, and other engineering colleges"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	JEE Advanced: For admission to the prestigious IITs (Indian Institutes of Technology), eligible candidates who qualify in JEE Main can take this exam."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	BITSAT: Birla Institute of Technology and Science Admission Test for BITS Pilani, Goa, and Hyderabad campuses."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	VITEEE: VIT Engineering Entrance Exam for VIT University."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	SRMJEEE: Entrance exam for admission to SRM University."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	WBJEE: West Bengal Joint Entrance Exam for engineering colleges in West Bengal."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	MHT CET: Maharashtra Common Entrance Test for engineering colleges in Maharashtra."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginRight="10dp"
+
+        />
 
 
     <TextView
-        android:id="@+id/mpc_career_options"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="960dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="4. Career Opportunities:
+        android:text="•	COMEDK: Consortium of Medical, Engineering and Dental Colleges of Karnataka exam for engineering seats in Karnataka."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginRight="10dp"
 
-Engineering: Students can pursue engineering degrees (B.E. or B.Tech) in various branches such as Computer Science, Mechanical, Civil, Electrical, Electronics, etc.
+        />
 
-Pure Sciences: Opportunities also exist in B.Sc programs in Physics, Chemistry, Mathematics, followed by M.Sc or PhD for research-oriented careers.
-
-Other Fields: Careers in architecture (B.Arch), aviation, and defense services (NDA) are also accessible through this stream."/>
 
     <TextView
-        android:id="@+id/mpc_challenges"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="1020dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="5. Challenges:
-The MPC stream requires strong analytical and problem-solving skills.
-Students often attend coaching classes in addition to school to prepare for competitive exams."/>
-    <TextView
-        android:id="@+id/mpc_popularity"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="1080dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20dp"
-        android:text="6. Popularity:
-The MPC stream is highly preferred by students aiming for a technical or scientific career, making it one of the most sought-after streams in India.
-"/>
+        android:text="•	WBJEE: West Bengal Joint Entrance Exam for engineering colleges in West Bengal."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="10dp"
+
+        />
 
     <TextView
-        android:id="@+id/mpc_chossing"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="1140dp"
-        android:layout_marginLeft="10dp"
+        android:text="2. Architecture Entrance Exams"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
         android:textSize="20dp"
-        android:text="Choosing the MPC stream is a significant step toward a career in engineering or science, and it requires dedication and consistent effort.
-"/>
+        android:layout_marginTop="870dp"
+        android:layout_marginRight="10dp"
+        />
 
 
-
-
-
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	NATA: The National Aptitude Test in Architecture is for admission to B.Arch. programs across India."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="910dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="•	JEE Main Paper 2: This is another option for those interested in B.Arch. at institutions like NITs and IITs."
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="965dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="3. Defense Services"
+    android:textStyle="bold"
+    android:layout_marginLeft="20dp"
+    android:textSize="20dp"
+    android:layout_marginTop="1015dp"
+    android:layout_marginRight="10dp"
+    />
 
 
 </RelativeLayout>

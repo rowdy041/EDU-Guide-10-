@@ -2,9 +2,102 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F8F8"
     tools:context=".inter">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="424dp"
+        android:layout_height="133dp"
+        android:background="#F8F8F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/inter_banner"
+        tools:layout_editor_absoluteX="-19dp" />
+
+    <Button
+        android:id="@+id/inter_mpc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• MPC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/inter_bipc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• BIPC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/inter_cec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• CEC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/inter_hec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• HEC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/inter_mec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• MEC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/inter_hpc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• HPC"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/inter_pcmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• PCMB"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/inter_mpc_with_computers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="• MPC with Computer Science"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="409dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

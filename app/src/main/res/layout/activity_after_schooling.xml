@@ -3,18 +3,84 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#E6E6E6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".after_schooling">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="201dp"
-        android:layout_height="77dp"
-        android:text="After school"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <Button
+        android:id="@+id/inter"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Inter"
+
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/diploma"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Diploma"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inter"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/iiit"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="I.I.I.T"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diploma"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/iti"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="I.T.I"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iiit"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/after_schooling_text_view"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="AFTER SCHOOLING YOU CAN CHO0SE"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
