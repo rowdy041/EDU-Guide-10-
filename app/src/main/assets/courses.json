@@ -1,0 +1,12 @@
+{
+    "inter": [
+        "MPC",
+        "BIPC",
+        "HEC",
+        "MEC",
+        "CEC",
+        "HPC",
+        "MPC with CS",
+        "PCMB"
+    ]
+}
