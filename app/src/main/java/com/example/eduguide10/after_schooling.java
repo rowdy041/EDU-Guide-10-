@@ -23,5 +23,19 @@ public class after_schooling extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Button buttonInter = findViewById(R.id.inter);
+        Button buttonDiploma = findViewById(R.id.diploma);
+        Button buttonIIT = findViewById(R.id.iiit);
+        Button buttonITI = findViewById(R.id.iti);
+
+        buttonInter.setOnClickListener(v -> openCoursesActivity("Inter"));
+        buttonDiploma.setOnClickListener(v -> openCoursesActivity("Diploma"));
+        buttonIIT.setOnClickListener(v -> openCoursesActivity("IIT"));
+        buttonITI.setOnClickListener(v -> openCoursesActivity("ITI"));
+    }
+    private void openCoursesActivity(String category) {
+        Intent intent = new Intent(after_schooling.this,related_courses.class);
+        intent.putExtra("CATEGORY", category); // Pass the selected category
+        startActivity(intent);
     }
 }

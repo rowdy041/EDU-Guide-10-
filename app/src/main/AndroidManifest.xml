@@ -28,6 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".related_courses"
+            android:exported="false" />
+        <activity android:name=".course_details"
+            android:exported="false" />
     </application>
 
 </manifest>
